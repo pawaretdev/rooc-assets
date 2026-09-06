@@ -1,0 +1,1600 @@
+{
+ "image": {
+  "file": "WorldMap_Full.png",
+  "width": 2048,
+  "height": 2048
+ },
+ "grid": {
+  "cell_px": 91.34,
+  "note": "every clickable zone is one 76x76-unit cell = 91.3px on the 2048px world map"
+ },
+ "maps": {
+  "Panel_DefaultWorldMap": {
+   "image": "WorldMap_Full.png",
+   "cells": [
+    {
+     "id": "12",
+     "center_px": [
+      864.8,
+      1162.8
+     ],
+     "rect_px": [
+      819.1,
+      1117.1,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      -222.5,
+      139.5
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "Western Geffen",
+     "scene_file": "SceneMaps/sc_jifenxibu_001.png",
+     "identified_from": "in-game screenshot"
+    },
+    {
+     "id": "13",
+     "center_px": [
+      1230.1,
+      1437.4
+     ],
+     "rect_px": [
+      1184.5,
+      1391.8,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      81.5,
+      -89.0
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "Poring Island",
+     "scene_file": "SceneMaps/sc_bolidao_001.png",
+     "identified_from": "in-game screenshot"
+    },
+    {
+     "id": "9_5",
+     "center_px": [
+      1140.0,
+      430.3
+     ],
+     "rect_px": [
+      1094.3,
+      384.6,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      6.5,
+      749.0
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "",
+     "scene_file": null,
+     "identified_from": null
+    },
+    {
+     "id": "5",
+     "center_px": [
+      1138.8,
+      1163.4
+     ],
+     "rect_px": [
+      1093.1,
+      1117.7,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      5.5,
+      139.0
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "",
+     "scene_file": null,
+     "identified_from": null
+    },
+    {
+     "id": "34",
+     "center_px": [
+      910.6,
+      1346.1
+     ],
+     "rect_px": [
+      864.9,
+      1300.4,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      -184.39,
+      -13.0
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "Orc Village",
+     "scene_file": "SceneMaps/sc_shourencunluo_001.png",
+     "identified_from": "in-game screenshot"
+    },
+    {
+     "id": "38",
+     "center_px": [
+      1071.5,
+      1620.1
+     ],
+     "rect_px": [
+      1025.8,
+      1574.5,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      -50.5,
+      -241.0
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "",
+     "scene_file": null,
+     "identified_from": null
+    },
+    {
+     "id": "351",
+     "center_px": [
+      682.8,
+      613.7
+     ],
+     "rect_px": [
+      637.1,
+      568.0,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      -373.9,
+      596.4
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "",
+     "scene_file": null,
+     "identified_from": null
+    },
+    {
+     "id": "771",
+     "center_px": [
+      1048.9,
+      521.9
+     ],
+     "rect_px": [
+      1003.2,
+      476.2,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      -69.3,
+      672.8
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "",
+     "scene_file": null,
+     "identified_from": null
+    },
+    {
+     "id": "203",
+     "center_px": [
+      1140.0,
+      615.6
+     ],
+     "rect_px": [
+      1094.3,
+      569.9,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      6.5,
+      594.8
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "",
+     "scene_file": null,
+     "identified_from": null
+    },
+    {
+     "id": "37",
+     "center_px": [
+      1498.4,
+      1565.0
+     ],
+     "rect_px": [
+      1452.7,
+      1519.3,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      304.7,
+      -195.1
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "",
+     "scene_file": null,
+     "identified_from": null
+    },
+    {
+     "id": "19",
+     "center_px": [
+      1071.5,
+      1528.8
+     ],
+     "rect_px": [
+      1025.8,
+      1483.1,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      -50.5,
+      -165.0
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "",
+     "scene_file": null,
+     "identified_from": null
+    },
+    {
+     "id": "75",
+     "center_px": [
+      1231.0,
+      1254.8
+     ],
+     "rect_px": [
+      1185.3,
+      1209.1,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      82.2,
+      63.0
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "Prontera East Gate",
+     "scene_file": "SceneMaps/sc_dongmen_001.png",
+     "identified_from": "in-game screenshot"
+    },
+    {
+     "id": "47",
+     "center_px": [
+      1297.8,
+      1528.4
+     ],
+     "rect_px": [
+      1252.1,
+      1482.8,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      137.78,
+      -164.7
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "Payon",
+     "scene_file": "SceneMaps/sc_feiyang_001.png",
+     "identified_from": "in-game screenshot"
+    },
+    {
+     "id": "54",
+     "center_px": [
+      773.4,
+      1071.5
+     ],
+     "rect_px": [
+      727.7,
+      1025.8,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      -298.5,
+      215.5
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "Glast Heim Outskirts",
+     "scene_file": null,
+     "identified_from": "in-game screenshot"
+    },
+    {
+     "id": "780",
+     "center_px": [
+      1513.8,
+      852.1
+     ],
+     "rect_px": [
+      1468.1,
+      806.5,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      317.5,
+      398.0
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "",
+     "scene_file": null,
+     "identified_from": null
+    },
+    {
+     "id": "50",
+     "center_px": [
+      1480.5,
+      1678.8
+     ],
+     "rect_px": [
+      1434.8,
+      1633.1,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      289.79,
+      -289.79
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "",
+     "scene_file": null,
+     "identified_from": null
+    },
+    {
+     "id": "21",
+     "center_px": [
+      1230.1,
+      1346.1
+     ],
+     "rect_px": [
+      1184.5,
+      1300.4,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      81.5,
+      -13.0
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "Izlude",
+     "scene_file": "SceneMaps/sc_yisilude_001.png",
+     "identified_from": "in-game screenshot"
+    },
+    {
+     "id": "25",
+     "center_px": [
+      888.8,
+      1528.8
+     ],
+     "rect_px": [
+      843.1,
+      1483.1,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      -202.5,
+      -165.0
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "Western Morroc",
+     "scene_file": "SceneMaps/sc_mlkxibu_001.png",
+     "identified_from": "in-game screenshot"
+    },
+    {
+     "id": "36",
+     "center_px": [
+      1389.1,
+      1528.4
+     ],
+     "rect_px": [
+      1343.4,
+      1482.8,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      213.79,
+      -164.7
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "Eastern Payon",
+     "scene_file": "SceneMaps/sc_feiyangdongbu_001.png",
+     "identified_from": "in-game screenshot"
+    },
+    {
+     "id": "67",
+     "center_px": [
+      1480.5,
+      1473.6
+     ],
+     "rect_px": [
+      1434.8,
+      1428.0,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      289.79,
+      -119.1
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "",
+     "scene_file": null,
+     "identified_from": null
+    },
+    {
+     "id": "202",
+     "center_px": [
+      1047.4,
+      615.6
+     ],
+     "rect_px": [
+      1001.8,
+      569.9,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      -70.5,
+      594.8
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "",
+     "scene_file": null,
+     "identified_from": null
+    },
+    {
+     "id": "9",
+     "center_px": [
+      1138.8,
+      1072.1
+     ],
+     "rect_px": [
+      1093.1,
+      1026.4,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      5.5,
+      215.0
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "Larva Canyon",
+     "scene_file": "SceneMaps/sc_yuchongxiagu_001.png",
+     "identified_from": "in-game screenshot"
+    },
+    {
+     "id": "53",
+     "center_px": [
+      773.4,
+      1162.8
+     ],
+     "rect_px": [
+      727.7,
+      1117.1,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      -298.5,
+      139.5
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "Geffen Field",
+     "scene_file": "SceneMaps/sc_jifenkuangye_001.png",
+     "identified_from": "in-game screenshot"
+    },
+    {
+     "id": "102",
+     "center_px": [
+      864.6,
+      1254.8
+     ],
+     "rect_px": [
+      819.0,
+      1209.1,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      -222.6,
+      63.0
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "Bretonia",
+     "scene_file": "SceneMaps/sc_bulunuosi_001.png",
+     "identified_from": "in-game screenshot"
+    },
+    {
+     "id": "4",
+     "center_px": [
+      1138.8,
+      1346.1
+     ],
+     "rect_px": [
+      1093.1,
+      1300.4,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      5.5,
+      -13.0
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "Prontera South Gate",
+     "scene_file": "SceneMaps/sc_nanmen_001.png",
+     "identified_from": "in-game screenshot"
+    },
+    {
+     "id": "20",
+     "center_px": [
+      1333.5,
+      1280.0
+     ],
+     "rect_px": [
+      1287.8,
+      1234.3,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      167.5,
+      42.0
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "",
+     "scene_file": null,
+     "identified_from": null
+    },
+    {
+     "id": "85",
+     "center_px": [
+      1138.8,
+      798.0
+     ],
+     "rect_px": [
+      1093.1,
+      752.4,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      5.5,
+      443.0
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "",
+     "scene_file": null,
+     "identified_from": null
+    },
+    {
+     "id": "28",
+     "center_px": [
+      980.1,
+      1620.1
+     ],
+     "rect_px": [
+      934.5,
+      1574.5,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      -126.5,
+      -241.0
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "",
+     "scene_file": null,
+     "identified_from": null
+    },
+    {
+     "id": "205",
+     "center_px": [
+      1140.0,
+      704.8
+     ],
+     "rect_px": [
+      1094.3,
+      659.1,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      6.5,
+      520.59
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "",
+     "scene_file": null,
+     "identified_from": null
+    },
+    {
+     "id": "48",
+     "center_px": [
+      1389.1,
+      1619.8
+     ],
+     "rect_px": [
+      1343.4,
+      1574.1,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      213.79,
+      -240.7
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "",
+     "scene_file": null,
+     "identified_from": null
+    },
+    {
+     "id": "68",
+     "center_px": [
+      1138.8,
+      980.7
+     ],
+     "rect_px": [
+      1093.1,
+      935.1,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      5.5,
+      291.0
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "",
+     "scene_file": null,
+     "identified_from": null
+    },
+    {
+     "id": "10",
+     "center_px": [
+      956.1,
+      1072.1
+     ],
+     "rect_px": [
+      910.4,
+      1026.4,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      -146.5,
+      215.0
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "Northern Geffen",
+     "scene_file": "SceneMaps/sc_jifenbeibu_001.png",
+     "identified_from": "in-game screenshot"
+    },
+    {
+     "id": "1",
+     "center_px": [
+      1047.4,
+      1254.8
+     ],
+     "rect_px": [
+      1001.8,
+      1209.1,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      -70.5,
+      63.0
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "Prontera West Gate",
+     "scene_file": "SceneMaps/sc_ximen_001.png",
+     "identified_from": "in-game screenshot"
+    },
+    {
+     "id": "26",
+     "center_px": [
+      980.1,
+      1528.8
+     ],
+     "rect_px": [
+      934.5,
+      1483.1,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      -126.5,
+      -165.0
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "Morroc",
+     "scene_file": "SceneMaps/sc_mengluoke_001.png",
+     "identified_from": "in-game screenshot"
+    },
+    {
+     "id": "544",
+     "center_px": [
+      799.4,
+      1586.4
+     ],
+     "rect_px": [
+      753.7,
+      1540.7,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      -276.9,
+      -212.9
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "",
+     "scene_file": null,
+     "identified_from": null
+    },
+    {
+     "id": "55",
+     "center_px": [
+      682.1,
+      1071.2
+     ],
+     "rect_px": [
+      636.4,
+      1025.6,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      -374.5,
+      215.7
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "Glast Heim",
+     "scene_file": "SceneMaps/sc_gucheng_001.png",
+     "identified_from": "in-game screenshot"
+    },
+    {
+     "id": "98",
+     "center_px": [
+      505.8,
+      1677.6
+     ],
+     "rect_px": [
+      460.1,
+      1631.9,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      -521.2,
+      -288.79
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "",
+     "scene_file": null,
+     "identified_from": null
+    },
+    {
+     "id": "23",
+     "center_px": [
+      1047.4,
+      1163.4
+     ],
+     "rect_px": [
+      1001.8,
+      1117.7,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      -70.5,
+      139.0
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "Eastern Geffen",
+     "scene_file": "SceneMaps/sc_jifendongbu_001.png",
+     "identified_from": "in-game screenshot"
+    },
+    {
+     "id": "45",
+     "center_px": [
+      1297.8,
+      1620.1
+     ],
+     "rect_px": [
+      1252.1,
+      1574.5,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      137.78,
+      -241.0
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "Payon Forest",
+     "scene_file": "SceneMaps/sc_feiyangshulin_001.png",
+     "identified_from": "in-game screenshot"
+    },
+    {
+     "id": "355",
+     "center_px": [
+      682.8,
+      613.7
+     ],
+     "rect_px": [
+      637.1,
+      568.0,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      -373.9,
+      596.4
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "",
+     "scene_file": null,
+     "identified_from": null
+    },
+    {
+     "id": "88",
+     "center_px": [
+      614.9,
+      1587.1
+     ],
+     "rect_px": [
+      569.2,
+      1541.4,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      -430.4,
+      -213.5
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "",
+     "scene_file": null,
+     "identified_from": null
+    },
+    {
+     "id": "52",
+     "center_px": [
+      1355.2,
+      1437.4
+     ],
+     "rect_px": [
+      1309.6,
+      1391.8,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      185.6,
+      -89.0
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "",
+     "scene_file": null,
+     "identified_from": null
+    },
+    {
+     "id": "99",
+     "center_px": [
+      957.2,
+      615.6
+     ],
+     "rect_px": [
+      911.5,
+      569.9,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      -145.6,
+      594.8
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "",
+     "scene_file": null,
+     "identified_from": null
+    },
+    {
+     "id": "7",
+     "center_px": [
+      1138.8,
+      1254.8
+     ],
+     "rect_px": [
+      1093.1,
+      1209.1,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      5.5,
+      63.0
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "Prontera",
+     "scene_file": "SceneMaps/sc_pulongdela_001.png",
+     "identified_from": "in-game screenshot"
+    },
+    {
+     "id": "17_5",
+     "center_px": [
+      1047.4,
+      430.3
+     ],
+     "rect_px": [
+      1001.8,
+      384.6,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      -70.5,
+      748.99
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "",
+     "scene_file": null,
+     "identified_from": null
+    },
+    {
+     "id": "8",
+     "center_px": [
+      1001.9,
+      1346.1
+     ],
+     "rect_px": [
+      956.2,
+      1300.4,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      -108.4,
+      -13.0
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "Goblin Forest",
+     "scene_file": "SceneMaps/sc_gebulinsenlin_001.png",
+     "identified_from": "in-game screenshot"
+    },
+    {
+     "id": "87",
+     "center_px": [
+      800.0,
+      1678.3
+     ],
+     "rect_px": [
+      754.3,
+      1632.6,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      -276.4,
+      -289.4
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "",
+     "scene_file": null,
+     "identified_from": null
+    },
+    {
+     "id": "17",
+     "center_px": [
+      1047.4,
+      1072.1
+     ],
+     "rect_px": [
+      1001.8,
+      1026.4,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      -70.5,
+      215.0
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "Garden",
+     "scene_file": "SceneMaps/sc_huayuan_001.png",
+     "identified_from": "in-game screenshot"
+    },
+    {
+     "id": "16",
+     "center_px": [
+      956.1,
+      1163.4
+     ],
+     "rect_px": [
+      910.4,
+      1117.7,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      -146.5,
+      139.0
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "Geffen",
+     "scene_file": "SceneMaps/sc_jifen_001.png",
+     "identified_from": "in-game screenshot"
+    },
+    {
+     "id": "35",
+     "center_px": [
+      1206.4,
+      1528.8
+     ],
+     "rect_px": [
+      1160.8,
+      1483.1,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      61.790000000000006,
+      -165.0
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "Bridge of Desert",
+     "scene_file": "SceneMaps/sc_shamozhiqiao_001.png",
+     "identified_from": "in-game screenshot"
+    },
+    {
+     "id": "209",
+     "center_px": [
+      706.1,
+      1636.8
+     ],
+     "rect_px": [
+      660.4,
+      1591.2,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      -354.5,
+      -254.9
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "",
+     "scene_file": null,
+     "identified_from": null
+    },
+    {
+     "id": "11",
+     "center_px": [
+      1138.8,
+      1437.4
+     ],
+     "rect_px": [
+      1093.1,
+      1391.8,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      5.5,
+      -89.0
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "Desert Crossroad",
+     "scene_file": "SceneMaps/sc_shamochadao_001.png",
+     "identified_from": "in-game screenshot"
+    },
+    {
+     "id": "22",
+     "center_px": [
+      1596.7,
+      1664.6
+     ],
+     "rect_px": [
+      1551.0,
+      1618.9,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      386.5,
+      -278.0
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "",
+     "scene_file": null,
+     "identified_from": null
+    },
+    {
+     "id": "772",
+     "center_px": [
+      1141.9,
+      431.0
+     ],
+     "rect_px": [
+      1096.2,
+      385.3,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      8.100000000000001,
+      748.4
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "",
+     "scene_file": null,
+     "identified_from": null
+    },
+    {
+     "id": "770",
+     "center_px": [
+      1049.2,
+      429.7
+     ],
+     "rect_px": [
+      1003.6,
+      384.0,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      -69.0,
+      749.5
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "",
+     "scene_file": null,
+     "identified_from": null
+    },
+    {
+     "id": "56",
+     "center_px": [
+      773.4,
+      1254.2
+     ],
+     "rect_px": [
+      727.7,
+      1208.5,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      -298.5,
+      63.5
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "Kordt Forest",
+     "scene_file": "SceneMaps/sc_ketesenlin_001.png",
+     "identified_from": "in-game screenshot"
+    },
+    {
+     "id": "86",
+     "center_px": [
+      1138.8,
+      889.4
+     ],
+     "rect_px": [
+      1093.1,
+      843.7,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      5.5,
+      367.0
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "",
+     "scene_file": null,
+     "identified_from": null
+    }
+   ],
+   "cave_labels": [
+    {
+     "name": "Feiqikuangkeng",
+     "center_px": [
+      943.6,
+      951.6
+     ]
+    },
+    {
+     "name": "Chenmozhichuan",
+     "center_px": [
+      1660.0,
+      1487.8
+     ]
+    },
+    {
+     "name": "Haididongku",
+     "center_px": [
+      1442.9,
+      1186.3
+     ]
+    },
+    {
+     "name": "Oukemigong",
+     "center_px": [
+      784.8,
+      1417.0
+     ]
+    },
+    {
+     "name": "Huige",
+     "center_px": [
+      1289.5,
+      319.5
+     ]
+    },
+    {
+     "name": "Xiashuidao",
+     "center_px": [
+      1257.3,
+      1135.6
+     ]
+    },
+    {
+     "name": "Beisen",
+     "center_px": [
+      1291.4,
+      1042.0
+     ]
+    },
+    {
+     "name": "Mayidong",
+     "center_px": [
+      1191.7,
+      1683.8
+     ]
+    },
+    {
+     "name": "Jiangshidong",
+     "center_px": [
+      1515.0,
+      1313.7
+     ]
+    },
+    {
+     "name": "Jinzita",
+     "center_px": [
+      794.2,
+      1591.3
+     ]
+    }
+   ]
+  },
+  "Panel_MiaoWorldMap": {
+   "image": "WorldMap_Miao_Full.png",
+   "cells": [
+    {
+     "id": "752",
+     "center_px": [
+      737.4,
+      846.1
+     ],
+     "rect_px": [
+      691.7,
+      800.5,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      -328.5,
+      403.0
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "",
+     "scene_file": null,
+     "identified_from": null
+    },
+    {
+     "id": "751",
+     "center_px": [
+      1202.5,
+      985.5
+     ],
+     "rect_px": [
+      1156.8,
+      939.9,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      58.489999999999995,
+      287.0
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "",
+     "scene_file": null,
+     "identified_from": null
+    },
+    {
+     "id": "760",
+     "center_px": [
+      1735.8,
+      768.0
+     ],
+     "rect_px": [
+      1690.1,
+      722.3,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      502.20000000000005,
+      468.0
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "",
+     "scene_file": null,
+     "identified_from": null
+    },
+    {
+     "id": "750",
+     "center_px": [
+      1112.3,
+      711.5
+     ],
+     "rect_px": [
+      1066.7,
+      665.8,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      -16.509999999999998,
+      515.0
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "",
+     "scene_file": null,
+     "identified_from": null
+    },
+    {
+     "id": "761",
+     "center_px": [
+      1637.2,
+      887.7
+     ],
+     "rect_px": [
+      1591.5,
+      842.0,
+      91.3,
+      91.3
+     ],
+     "unity_pos": [
+      420.2,
+      368.4
+     ],
+     "size_units": [
+      76.0,
+      76.0
+     ],
+     "name": "",
+     "scene_file": null,
+     "identified_from": null
+    }
+   ],
+   "cave_labels": [
+    {
+     "name": "cave2",
+     "center_px": [
+      709.7,
+      981.5
+     ]
+    },
+    {
+     "name": "cave1",
+     "center_px": [
+      869.4,
+      900.9
+     ]
+    }
+   ]
+  }
+ },
+ "identification_note": "Cell geometry comes from Resources/UI/Prefabs/WorldMap.prefab (exact). The 'name'/'scene_file' fields were matched by hand against an in-game screenshot and cover only part of the cells; the rest are left blank because the game's map-name string table is not in this asset dump."
+}

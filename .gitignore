@@ -1,0 +1,11 @@
+# OS / editor cruft
+Thumbs.db
+ehthumbs.db
+desktop.ini
+.DS_Store
+*.swp
+
+# python venv used by the extraction scripts
+venv/
+__pycache__/
+*.pyc
