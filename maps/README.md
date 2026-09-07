@@ -8,7 +8,7 @@ Source: `ROOC_Extracted_158` (Unity 2019.4.36f1, plain unencrypted `UnityFS` bun
 |---|---|---|
 | `WorldMapUI.html` | — | **Working demo of the in-game world-map UI** — pan/zoom, clickable grid cells, side panel with the zone's map image |
 | `worldmap_cells.json` | — | Cell geometry: every clickable zone's rect in pixels on `WorldMap_Full.png` |
-| `MapIndex.html` | — | Browsable gallery of all 199 per-zone maps, with search and category filters |
+| `index.html` | — | Browsable gallery of all 199 per-zone maps, with search and category filters |
 | `_verify_WorldMap_*.png` | 2 | The world map with the cell grid + scene IDs drawn on, for checking alignment |
 | `WorldMap_Full.png` | 1 | **Full world map** (2048×2048), stitched from `RO_Map_BG3..6` |
 | `WorldMap_Miao_Full.png` | 1 | **Miao / sea-region world map** (2048×2048), stitched from `RO_MiaoMap_BG3..6` |
@@ -52,7 +52,7 @@ them through a `UIStringLocal` component, i.e. a localization string table fetch
 that table is not an asset bundle. `Resources/Lang/{en,tha,ko,ja,zh,...}` contains only fonts and
 localized images, no text.
 
-So the labels in `MapIndex.html` are **my identification from the pinyin**, not game data.
+So the labels in `index.html` are **my identification from the pinyin**, not game data.
 Labels shown in yellow or ending in `?` are uncertain — check them against the thumbnail.
 `sc_pulongdela_001` is the only one verified directly against an in-game screenshot.
 

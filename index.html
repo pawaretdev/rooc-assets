@@ -1,0 +1,75 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>rooc-assets</title>
+<style>
+:root{
+  --bg:#12151c; --card:#1b202b; --line:#2a3140; --fg:#e8ecf4;
+  --dim:#98a2b8; --faint:#5f6a80; --acc:#f0b429; --shot:#0f1319;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);
+     font:14px/1.5 "Segoe UI",system-ui,sans-serif}
+a{color:inherit}
+
+header{position:sticky;top:0;z-index:5;background:rgba(18,21,28,.97);
+       border-bottom:1px solid var(--line);padding:14px 22px;backdrop-filter:blur(8px)}
+nav{display:flex;gap:4px;flex-wrap:wrap;margin-bottom:11px}
+nav a{padding:4px 11px;border-radius:6px;font-size:12.5px;color:var(--dim);
+      text-decoration:none;border:1px solid transparent}
+nav a:hover{background:var(--card);border-color:var(--line)}
+nav a.here{background:var(--card);border-color:var(--line);color:var(--fg);font-weight:600}
+nav a.home{color:var(--acc)}
+h1{margin:0;font-size:17px;letter-spacing:.02em}
+.sub{color:var(--dim);font-size:13px;margin-top:3px;max-width:80ch}
+.sub code{background:var(--card);padding:1px 5px;border-radius:4px;font-size:12px}
+.sub a{color:var(--acc)}
+
+main{padding:22px;max-width:1500px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(430px,1fr));gap:15px}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:11px;
+      overflow:hidden;text-decoration:none;display:flex;flex-direction:column;
+      transition:border-color .12s,transform .12s}
+.tile:hover{border-color:var(--acc);transform:translateY(-2px)}
+.strip{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;
+       background:var(--line);border-bottom:1px solid var(--line)}
+.strip span{background:#0f1319;aspect-ratio:1;display:block;padding:7px}
+.strip img{width:100%;height:100%;object-fit:contain;display:block}
+.body{padding:12px 14px}
+.row{display:flex;align-items:baseline;gap:9px}
+.name{font-size:16px;font-weight:600}
+.n{color:var(--acc);font-size:12.5px;font-variant-numeric:tabular-nums}
+.desc{color:var(--dim);font-size:12.5px;margin-top:4px;line-height:1.45}
+
+.aside{margin-top:26px;border-top:1px solid var(--line);padding-top:18px}
+h2{font-size:13px;font-weight:600;color:var(--dim);margin:0 0 9px;
+   text-transform:uppercase;letter-spacing:.06em}
+.links{display:flex;gap:9px;flex-wrap:wrap}
+.links a{background:var(--card);border:1px solid var(--line);border-radius:8px;
+         padding:9px 13px;text-decoration:none;font-size:13px;max-width:420px}
+.links a:hover{border-color:var(--acc)}
+.links b{display:block;font-weight:600}
+.links i{display:block;color:var(--dim);font-size:12px;font-style:normal;margin-top:2px}
+</style>
+<header>
+  <nav><a href="index.html" class="home here">rooc-assets</a><a href="maps/index.html">Maps</a><a href="items/index.html">Items</a><a href="cards/index.html">Cards</a><a href="sprites/index.html">Sprites</a><a href="hotupdate/index.html">HotUpdate</a></nav>
+  <h1>rooc-assets</h1>
+  <div class="sub">Art extracted from a Ragnarok Origin client &mdash; Unity 2019.4.36f1,
+    plain unencrypted <code>UnityFS</code> bundles. 36,811 images across five sets.
+    Filenames are the game's internal names, mostly Chinese pinyin; there is no name table
+    in the dump, so searching by the English name usually will not work.</div>
+</header>
+<main>
+  <div class="tiles"><a class="tile" href="maps/index.html"><div class="strip"><span><img loading="lazy" src="maps/_thumbs/sc_PVP_jinbiaosai.png" alt=""></span><span><img loading="lazy" src="maps/_thumbs/sc_dungeon_shijianlaolong_001.png" alt=""></span><span><img loading="lazy" src="maps/_thumbs/sc_gvgfeiyang_003_1.png" alt=""></span><span><img loading="lazy" src="maps/_thumbs/sc_jinglianwu_002.png" alt=""></span><span><img loading="lazy" src="maps/_thumbs/sc_tiaozhanchang_001.png" alt=""></span></div><div class="body"><div class="row"><span class="name">Maps</span><span class="n">199 images</span></div><div class="desc">Per-zone map images, labelled by hand against in-game screenshots, plus the stitched world map and its cell coordinates.</div></div></a><a class="tile" href="items/index.html"><div class="strip"><span><img loading="lazy" src="items/Icon_HomelandFurniture/UI_icon_homeland_building13.png" alt=""></span><span><img loading="lazy" src="items/Icon_ItemConsumables05/UI_icon_item_collect07_zy.png" alt=""></span><span><img loading="lazy" src="items/Icon_ItemConsumables07/UI_icon_item_tansuo_zuanshi.png" alt=""></span><span><img loading="lazy" src="items/Icon_ItemMaterial03/UI_icon_item_Pojiuhuaxiang.png" alt=""></span><span><img loading="lazy" src="items/Icon_Wear_Other_01/UI_icon_item_yaogunziyanjing.png" alt=""></span></div><div class="body"><div class="row"><span class="name">Items</span><span class="n">6,667 images</span></div><div class="desc">Item, equipment, costume and mount icons in the game's own folder layout, plus every atlas sheet sliced apart.</div></div></a><a class="tile" href="cards/index.html"><div class="strip"><span><img loading="lazy" src="cards/images/UI_MonsterCard_2023shuangdanmilu.png" alt=""></span><span><img loading="lazy" src="cards/images/UI_MonsterCard_FeiQiMo_zn.png" alt=""></span><span><img loading="lazy" src="cards/images/UI_MonsterCard_kalun.png" alt=""></span><span><img loading="lazy" src="cards/images/UI_MonsterCard_QingDian.png" alt=""></span><span><img loading="lazy" src="cards/images/UI_MonsterCard_Weiguojixiemomo.png" alt=""></span></div><div class="body"><div class="row"><span class="name">Cards</span><span class="n">452 images</span></div><div class="desc">Monster card art. The frame and the English monster name are baked into each texture, so this is the one set you can read by eye.</div></div></a><a class="tile" href="sprites/index.html"><div class="strip"><span><img loading="lazy" src="sprites/AUI_PreyDungeon_Img_ShuxingA.png.png" alt=""></span><span><img loading="lazy" src="sprites/Pokemon_fragment_tuyuansujingling_purple.png.png" alt=""></span><span><img loading="lazy" src="sprites/UI_Common_Toggle_02a.png.png" alt=""></span><span><img loading="lazy" src="sprites/UI_Icon_Skill_Marry_zhaohuan.png.png" alt=""></span><span><img loading="lazy" src="sprites/UI_Slots_img_tu7.png.png" alt=""></span></div><div class="body"><div class="row"><span class="name">Sprites</span><span class="n">20,902 images</span></div><div class="desc">The loose sprite dump — UI parts, monster and NPC portraits, costume and headgear thumbnails, emoji, effect frames.</div></div></a><a class="tile" href="hotupdate/index.html"><div class="strip"><span><img loading="lazy" src="hotupdate/images/Fashion_M_CatJinLan01_Body_S.png" alt=""></span><span><img loading="lazy" src="hotupdate/images/Helmet_HuLiJiaMian_F.png" alt=""></span><span><img loading="lazy" src="hotupdate/images/Fashion_F_MoFa_Body.png" alt=""></span><span><img loading="lazy" src="hotupdate/images/UI_Hairstyle_Miao_M_00.png" alt=""></span><span><img loading="lazy" src="hotupdate/images/Common_M_YongBingErJieMuShiT_Hair_F.png" alt=""></span></div><div class="body"><div class="row"><span class="name">HotUpdate</span><span class="n">8,591 images</span></div><div class="desc">Patch content, pulled from the loose HotUpdate bundles. Anything added to the game after release exists only here.</div></div></a></div>
+  <div class="aside">
+    <h2>Not a gallery</h2>
+    <div class="links">
+      <a href="maps/WorldMapUI.html"><b>World map</b>
+        <i>Pan/zoom demo of the in-game world map, with clickable zone cells</i></a>
+      <a href="README.md"><b>README.md</b>
+        <i>What is here, where it came from, and what the known gaps are</i></a>
+      <a href="EXTRACTING.md"><b>EXTRACTING.md</b>
+        <i>How to unpack the game folder and reproduce these dumps</i></a>
+    </div>
+  </div>
+</main>

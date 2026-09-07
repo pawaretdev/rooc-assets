@@ -9,15 +9,35 @@ unencrypted `UnityFS` bundles.
 |---|---|---|
 | [`maps/`](maps/) | 850 | World map, per-zone maps, map UI art |
 | [`items/`](items/) | ~6,700 | Item, equipment, costume and mount icons |
+| [`cards/`](cards/) | 452 | Monster card art, 300×400, frame and English name baked in |
+| [`sprites/`](sprites/) | ~21,000 | Loose sprite dump — UI parts, portraits, costume thumbnails |
 | [`hotupdate/`](hotupdate/) | 8,591 | **Patch content** — everything added after the base install |
 
-Open the index pages in a browser:
+## Browsing it
 
-- `hotupdate/index.html` — all 8,591 patch images, searchable, grouped
-- `items/ItemIndex.html` — the base item icon set
-- `maps/MapIndex.html` — all 199 per-zone maps
-- `maps/WorldMapUI.html` — working demo of the in-game world map (pan/zoom,
-  clickable grid cells, side panel per zone)
+**Open [`index.html`](index.html) here in the repo root** — that is the only
+address worth remembering. It is a landing page for all 36,811 images, and every
+gallery links back to it, so you never have to go digging for an index inside a
+subfolder.
+
+Behind it, each folder has its own `index.html` with the same layout: one search
+box, group tabs with counts, and the same nav bar across the top.
+
+| Page | Images | |
+|---|---|---|
+| [`maps/`](maps/index.html) | 199 | per-zone maps, labelled by zone |
+| [`items/`](items/index.html) | 6,667 | the base item icon set |
+| [`cards/`](cards/index.html) | 452 | monster cards |
+| [`sprites/`](sprites/index.html) | 20,902 | the loose sprite dump |
+| [`hotupdate/`](hotupdate/index.html) | 8,591 | patch-only content |
+
+One page is not a gallery: [`maps/WorldMapUI.html`](maps/WorldMapUI.html), a
+working demo of the in-game world map — pan/zoom, clickable grid cells, side
+panel per zone.
+
+All six pages render through one shared shell,
+[`_tools/rooc_gallery.py`](_tools/rooc_gallery.py) — change the layout there and
+re-run the scripts, rather than editing any HTML by hand.
 
 ## The two asset sources — this matters
 
@@ -70,6 +90,23 @@ holding packed sheets and every sprite sliced out of them.
 `items/_previews/` holds side-by-side comparison sheets built while identifying
 specific icons (card fragments, binding stones, star candidates).
 
+## cards/
+
+452 monster cards out of `Resources/UI/Texture/MonsterCard` — one bundle per
+card, no atlas. 444 are the classic 300×400 RO card with the rarity frame and
+the monster's **English name baked into the artwork**, which makes this the one
+folder here you can actually search by eye. The `Card: <name>` bar seen in game
+is a runtime overlay, not part of the texture. Filenames are still pinyin —
+Poring is `Boli`. See [`cards/README.md`](cards/README.md).
+
+## sprites/
+
+20,902 loose sprite PNGs (175 MB) in one flat folder — UI parts, monster and NPC
+portraits, costume and headgear thumbnails, emoji, effect frames. Most are named
+`<asset>.png.png`; the doubled suffix is the extractor's, not the game's. No
+manifest, so the index's prefix grouping is the way in. See
+[`sprites/README.md`](sprites/README.md).
+
 ## Known limits
 
 - **No name tables.** Zone and item names resolve at runtime from a localization
@@ -84,8 +121,12 @@ specific icons (card fragments, binding stones, star candidates).
 
 ## Reproducing
 
-`maps/_tools/`, `items/_tools/` and `hotupdate/_tools/` hold the extraction
-scripts. They use [UnityPy](https://github.com/K0lb3/UnityPy), not AssetStudio —
+[`EXTRACTING.md`](EXTRACTING.md) is the full walkthrough: unpacking
+`StreamingAssets` with RoBlockExtractor, then browsing the result in AssetStudio.
+
+Each folder's `_tools/` holds its extraction and gallery scripts, and `_tools/`
+at the repo root holds the shared gallery shell they all render through. The
+extractors use [UnityPy](https://github.com/K0lb3/UnityPy), not AssetStudio —
 the machine had no .NET SDK and AssetStudio 0.16.47 ships GUI-only, so its DLLs
 could not be scripted.
 
@@ -93,6 +134,20 @@ could not be scripted.
 python -m venv venv
 venv\Scripts\python -m pip install UnityPy numpy pillow
 venv\Scripts\python hotupdate\_tools\extract_hotupdate.py
+venv\Scripts\python cards\_tools\extract_cards.py
+```
+
+Rebuilding the galleries needs nothing but the images already on disk. Run the
+five folder scripts, then `build_home.py` last — it reads their output to get
+the counts and cover thumbnails for the root page:
+
+```
+venv\Scripts\python maps\_tools\gallery.py
+venv\Scripts\python items\_tools\item_gallery.py
+venv\Scripts\python cards\_tools\card_gallery.py
+venv\Scripts\python sprites\_tools\sprite_gallery.py
+venv\Scripts\python hotupdate\_tools\hotupdate_index.py
+venv\Scripts\python _tools\build_home.py
 ```
 
 ## Note

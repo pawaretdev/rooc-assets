@@ -1,6 +1,6 @@
 # ROOC — Extracted item icons
 
-6,646 PNGs (101.7 MB) pulled from `ROOC_Extracted_158`. **Open `ItemIndex.html`** to browse
+6,646 PNGs (101.7 MB) pulled from `ROOC_Extracted_158`. **Open `index.html`** to browse
 them with search and category filters.
 
 ## Layout
